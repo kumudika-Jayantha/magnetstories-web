@@ -1,0 +1,12 @@
+{
+  "name": "magnetstories-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
