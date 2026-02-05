@@ -1,0 +1,15 @@
+:root {
+  --bg: #f6f9fc;
+  --text: #0f1720;
+}
+
+html,body,#__next { height:100% }
+body { margin:0; font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:var(--text) }
+
+.container { min-height:100%; display:flex; flex-direction:column }
+main { flex:1 }
+
+a { color:inherit }
+
+/* small utility */
+.muted { color:#6b7280 }
